@@ -8,7 +8,13 @@
 
 历史方向：08版形态与10版中轴昼夜均被用户否定。[09版山谷场景](output/mythic-beast-mural/2026-09-23-zhulong-scene/REVIEW.md)和其他探索保留供追溯。
 
-当前最新候选：[15 烛龙：环境符号化的角色图版](output/mythic-beast-mural/2026-09-23-zhulong-symbolic/15-zhulong-symbolic-plate.png)。用户澄清需要角色档案画，其他元素抽象化、符号化；本轮放大盘蛇，将岩岸、水面凝练为平面色块与水纹，保留睁眼蛇首和闭眼人面倒影。[完整提示词与检查记录](output/mythic-beast-mural/2026-09-23-zhulong-symbolic/REVIEW.md)，待人工判断。
+当前最新候选：[23 烛龙：上下中轴构图](output/mythic-beast-mural/2026-09-23-zhulong-vertical-axis/23-zhulong-vertical-axis.png)。按用户最新指令改为竖向图版，上方盘蛇的睁眼蛇首与下方闭眼人面倒影同轴，环境保持抽象水岩纹样。[提示词、参考稿与检查记录](output/mythic-beast-mural/2026-09-23-zhulong-vertical-axis/REVIEW.md)，待人工判断。
+
+[20／21丰润与受力修订](output/mythic-beast-mural/2026-09-23-zhulong-weight/REVIEW.md)保留追溯；20被用户评价仍不自然，21尚未获认可，22尾段修正草案未执行即转向上下中轴。
+
+[19连接修订与结构参考](output/mythic-beast-mural/2026-09-23-zhulong-continuity/REVIEW.md)保留追溯，用户反馈体态尚不够丰润、垂落不够自然。
+
+[15环境符号化稿](output/mythic-beast-mural/2026-09-23-zhulong-symbolic/REVIEW.md)保留为原姿态参考，身体连续性被用户明确指出需修。16螺旋盘法不采用；17文字修正失败，18未能确认修复，均保留追溯。
 
 [13／14场景探索](output/mythic-beast-mural/2026-09-23-zhulong-narrative/REVIEW.md)源于Agent对上一句反馈的误解，未达成档案画目标；[11／12倒影探索](output/mythic-beast-mural/2026-09-23-zhulong-reflection/REVIEW.md)也保留供追溯。
 

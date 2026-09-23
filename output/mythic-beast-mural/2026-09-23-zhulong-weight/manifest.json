@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "test_id": "2026-09-23-zhulong-weight",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "metadata_note": "Model and seed not exposed by tool; dimensions measured from generated PNG.",
+  "user_direction": "蛇身不够丰润舒展，自然重力垂落不够自然",
+  "status": "superseded_by_vertical_axis_composition_request",
+  "human_approval": null,
+  "current_candidate": "21-zhulong-grounded-loops.png",
+  "review": "REVIEW.md",
+  "call_count": 2,
+  "generations": [
+    {
+      "id": "zhulong-fullness-and-drape",
+      "mode": "targeted_body_fullness_and_gravity_edit",
+      "prompt_file": "prompts/20-fullness-and-drape.txt",
+      "prompt_text_submitted": "Use case: precise-object-edit\n以输入的19版烛龙为唯一编辑目标。用户这次要求：蛇身更丰润舒展，表现自然重力与柔软的垂落。保留当前连续的头尾路径、原有大回环布局、右上尾巴、睁眼蛇首和水中闭眼人面倒影，只调整蛇躯的饱满程度、弧线松紧和承重关系。\n\n【丰润但不僵硬】\n把中段蛇躯做得更饱满，尤其是左下大回环、左上大拱与从中部通向头部的长躯。像健康、肌肉充实的大蟒蛇，体段之间有自然的粗细过渡，横截面丰厚但柔软。不要现在偏细、被拉紧的绳索感，也不要均匀粗细的橡胶管或气球般鼓胀。\n优先向外侧和宽阔留白处丰满，保留中央关键交叉处的出入口和负形。各段在遮挡前后仍要能以匹配的宽度和轴线续上，不能加粗后重新粘成一坨。\n\n【舒展、受重力与支撑的盘曲】\n保持原来的盘法，不换成螺旋。转弯更宽缓、圆润，长段松弛一些，不绷紧成连续高拱，不做几何圆环。\n左下的大回环自然沉在承托面上，下缘稍宽、稍平，转弯处有柔软的重量感；它不是一根悬浮的硬管。\n左上回环保持原来的大弧，但可略低一些、宽展一些，让较低的体段确实搭在下层盘身上，而不是独自高悬的立环。上层搭压下层时，接触处轻微压扁、两侧饱满地展开；别压成扁带。\n中部越过其他蛇段的躯体应在接触点获得承托，离开接触点后自然柔和地下垂。自由悬垂的部分呈顺畅的下坠曲线，不像拱桥或钢丝保持固定形状。\n蛇颈从丰厚中段逐渐收向蛇首，流畅向右下方水面垂落。保留原蛇首位置、大小、开眼神态和闭口，不抬高头，不拉成长而细的脖子。\n右上尾巴仍在原区域，根部过渡自然，尾端保留优雅曲线，稍有顺势下垂的重量，不僵硬翘起。\n\n【连续性不可倒退】\n头至尾只有一条身体。保持19版已按结构参考建立的顺序：蛇首与前颈 → 左下回环 → 左上大拱 → 右上尾段。各交叉的前后关系不改变，只有轮廓变柔、体段更饱满、接触更可信。腹带随真实转面延续，鳞片顺势生长，不能额外长出身体、闭合孤立环或多个尾尖。\n不要靠更暗投影或新岩石挡住难画的连接；可轻微调整现有抽象岩片的接触边缘，使其确实托住下方盘身，不增加大块环境。\n\n【画法与其他内容保持】\n丰满与重力通过轮廓、受力后的形块变化和接触边界表现，依旧是精细的平面装饰画，不用写实立体渐变塑形。保留赭红、暗朱砂、骨白和少量黛青的鳞纹分组、细暖金线、米白纸壁底、矿物色和轻微颗粒。\n水纹带、倒置闭眼的人面、月相、圆盘和其余背景符号原样保留。保持角色图版的完整主轮廓，不展开自然山水，不裁切头尾。不添加文字、说明线、编号、3D光影、摄影虚化或浮雕。\n",
+      "prompt_file_sha256": "b189a7eef9c5f27debe7016cd4eae354dcfe47b01f0eb5a8eab782adcf0e7b8b",
+      "submitted_prompt_sha256": "b189a7eef9c5f27debe7016cd4eae354dcfe47b01f0eb5a8eab782adcf0e7b8b",
+      "references": [
+        {
+          "path": "E:\\draw\\output\\mythic-beast-mural\\2026-09-23-zhulong-continuity\\19-original-coil-connected.png",
+          "role": "sole_edit_target_keep_original_coil_topology_and_design",
+          "sha256": "6de836fb7b58dbd175975bb0056a4c3e0e38d479435fd7e70c9e6a8e2844bd4e"
+        }
+      ],
+      "output_file": "20-zhulong-fullness-and-drape.png",
+      "source_cache_file": "C:\\Users\\huym\\.codex\\generated_images\\01a0cc00-d881-7fa1-a468-c8c49a1c2b86\\exec-e75bb201-3f67-4067-b371-c524100d0e88.png",
+      "output_metadata": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "sha256": "ca05611254242d20934bcadc63c360d8b0a214ff780305210d5ba711874a85a1"
+      },
+      "tool_status": "succeeded",
+      "human_review": "still_unnatural_requires_revision",
+      "agent_observation": "Torso and lower loop fuller; arch slightly lowered; head, reflection and symbolic background retained. Changes to weight and sag are modest, and reduced gaps need human review. Gravity realism is not marked fully resolved."
+    },
+    {
+      "id": "zhulong-grounded-loops",
+      "mode": "targeted_support_and_drape_edit",
+      "prompt_file": "prompts/21-grounded-loops.txt",
+      "prompt_text_submitted": "编辑所附20版烛龙插画，只修蛇身的自然受力与体态。前版仅仅加粗，仍像人为摆成的硬质拱门，用户明确认为不自然。现在必须改变局部曲线的受力关系，而不是再次照抄轮廓后加鳞纹。\n\n保留原来的盘绕方式和连续身体：左下的大回环、左上后圈、中央前探躯体、右侧头尾；绝不改成螺旋或同心盘。允许为了自然重力明显调整各圈的高度、扁率、松紧和局部粗细。整体像一条丰润、柔软、有重量的大蟒蛇松弛地搭卧，身体是鲜活肌肉，不是圆管、编绳、丝带或石雕。\n\n具体只改四点：\n1. 左上后圈放低并横向放宽，从竖直拱门变成向后斜卧的宽松椭圆回环。较低部分真实地搭在下层蛇身上，接触长度清楚；让人看懂它有支撑。不要保留原来凌空竖着的大白腹洞。原大圈仍然存在，只改变它的躺卧与垂落。\n2. 左下回环丰厚柔软地铺展在现有岩面上，下缘自然稍平，重量向两侧宽缓摊开。上层身体压过它时，接触处略扁、旁边柔和鼓起，不要两根圆管仅仅相切。保留回环的出入口，不能合成断环或独立环。\n3. 中央躯体由下方盘身承托，过了最后一个支撑点再顺畅下垂，形成一条沉稳柔和的落势通向原位置的蛇首。取消颈后突兀的高峰与硬折，不能整段悬空拱起。蛇首仍在右下水面上方、眼睛睁开，外观优雅。\n4. 右上尾根自然贴靠后侧蛇身或现有岩片，细尾沿后侧轮廓渐渐垂下。保留右侧的优美弧线和唯一尾尖，但降低无承托的悬空高度，不像独立钩子竖在天上。\n\n白色腹片位于真实的下腹面：只有侧翻处和下缘适量露出，不能每个弯都把宽大的白腹翻给观众。背鳞、侧鳞、腹片随同一身体转面，不同弯曲的腹带方向有解剖逻辑。这一点和柔软轮廓一起消除硬丝带感。丰厚的中段与较细的颈尾缓慢过渡，不能头后突然粗大、尾根突然缩细。\n\n保留正确的单一头尾路线与所有交叉的接续顺序；局部变形后重新让遮挡两侧的宽度、切线和腹鳞对应，不能生出分叉、无来源躯段或多尾。不要新增大岩石来掩盖问题。\n\n其余全部沿用原图：睁眼的美丽蛇首、水中倒置且闭眼的人面、朱砂赭红与骨白黛青矿物色、细金线和精细分组鳞纹、米白留白、抽象岩水纹样、圆盘与月相。保持角色图版，不展开山水场景。轻微纸壁颗粒，清晰平涂片块；重量靠轮廓、遮挡、接触与垂落表达，不改成照片、3D光影或浮雕。无文字、编号和示意线。输出一幅完成的彩色插画。\n",
+      "prompt_file_sha256": "08c107a5b5d2d83f37619ec9c2d56b3f37b561a53d9ce18f4118d44953f11f7c",
+      "submitted_prompt_sha256": "08c107a5b5d2d83f37619ec9c2d56b3f37b561a53d9ce18f4118d44953f11f7c",
+      "references": [
+        {
+          "path": "E:\\draw\\output\\mythic-beast-mural\\2026-09-23-zhulong-weight\\20-zhulong-fullness-and-drape.png",
+          "role": "sole_edit_target",
+          "sha256": "ca05611254242d20934bcadc63c360d8b0a214ff780305210d5ba711874a85a1"
+        }
+      ],
+      "output_file": "21-zhulong-grounded-loops.png",
+      "source_cache_file": "C:\\Users\\huym\\.codex\\generated_images\\01a0cc00-d881-7fa1-a468-c8c49a1c2b86\\exec-571ca31f-b282-45c8-b9fe-8a5c256a6c38.png",
+      "output_metadata": {
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "sha256": "bcb3e1643f4d0c78983e51261677f32608967f9460af5f0200c500d8bb7c6a15"
+      },
+      "tool_status": "succeeded",
+      "human_review": "not_approved_direction_changed",
+      "agent_observation": "Rear loop lowered and more oblique with fuller contact. Tail still held high. User switched to a vertical subject/reflection axis before any local tail fix was called."
+    }
+  ],
+  "recorded_at_utc": "2026-09-23T08:03:26.297514+00:00",
+  "followup_request": "干脆直接上下中轴构图",
+  "continued_in": "../2026-09-23-zhulong-vertical-axis/manifest.json",
+  "unexecuted_prompts": [
+    {
+      "prompt_file": "prompts/22-tail-support.txt",
+      "reason": "User changed to vertical-axis composition before image generation was called."
+    }
+  ],
+  "updated_at_utc": "2026-09-23T08:49:54.754375+00:00"
+}

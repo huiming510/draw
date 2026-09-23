@@ -6,7 +6,7 @@
   "seed": null,
   "metadata_note": "Model and seed not exposed by tool; dimensions measured from generated PNG.",
   "user_direction": "还是不像档案画，需要对其他元素进行抽象化和符号化",
-  "status": "current_candidate_pending_human_review",
+  "status": "needs_body_continuity_repair_keep_original_pose",
   "human_approval": null,
   "current_candidate": "15-zhulong-symbolic-plate.png",
   "review": "REVIEW.md",
@@ -41,8 +41,10 @@
       },
       "tool_status": "succeeded",
       "agent_observation": "Large coiled serpent on an ivory field with simplified rock planes and decorative water ribbons; awake snake and inverted closed-eye human reflection visible. Unrequested disc and moon phases remain candidate ornament only. Body overlaps and aesthetic fit require human judgment.",
-      "human_review": "pending"
+      "human_review": "body_continuity_failed_original_pose_to_be_retained"
     }
   ],
-  "recorded_at_utc": "2026-09-23T07:21:17.653860+00:00"
+  "recorded_at_utc": "2026-09-23T07:21:17.653860+00:00",
+  "followup_request": "蛇身在遮挡和盘绕的逻辑上并不连续；保留原来的盘法，只理顺连接。",
+  "continued_in": "../2026-09-23-zhulong-continuity/manifest.json"
 }
