@@ -1,0 +1,4 @@
+interface:
+  display_name: "异兽装饰壁画"
+  short_description: "先确定细线与平面叠层的整体画风，再定制异兽形态、背景和配色并生图验收"
+  default_prompt: "使用 $mythic-beast-mural 先依据已认可参考确认整体画风，再为指定异兽定制形态、背景与配色，生成试稿交我人工验证。"

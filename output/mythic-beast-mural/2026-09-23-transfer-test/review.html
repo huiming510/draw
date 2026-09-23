@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>异兽装饰壁画 · 首轮人工验收</title>
+<style>
+:root{color-scheme:light;--paper:#f5f0e5;--ink:#213f42;--muted:#627170;--line:#d7d4c7;--accent:#873d2c}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei",system-ui,sans-serif;line-height:1.7}main{max-width:1250px;margin:auto;padding:36px 24px 80px}h1{font-size:30px;font-weight:600;margin:6px 0 14px}h2{font-size:23px;margin:0}p{margin:8px 0 16px}.eyebrow{letter-spacing:.16em;font-size:12px;color:var(--accent)}.muted{color:var(--muted);font-size:14px}a{color:var(--accent)}.baseline{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fffdf6;border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:24px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:14px 0 0}figure img{display:block;width:100%;height:360px;object-fit:contain;background:#e9e6dd;cursor:zoom-in;border-radius:6px}figcaption{margin-top:6px;font-size:13px;color:var(--muted)}.baseline img{height:230px}.status{font-size:12px;border:1px solid #bda997;color:var(--accent);border-radius:20px;padding:2px 10px;display:inline-block;margin-left:10px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}label{display:block;font-size:13px}select,textarea{width:100%;font:inherit;border:1px solid var(--line);border-radius:5px;padding:9px;background:white;color:var(--ink)}textarea{margin-top:5px;min-height:85px}button{font:inherit;border:0;border-radius:7px;background:var(--ink);color:white;padding:11px 18px;cursor:pointer}button.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}.actions{display:flex;gap:12px;align-items:center;margin-top:28px;flex-wrap:wrap}.facts{font-size:14px;max-width:90ch}.view{position:fixed;inset:0;background:#182122f5;display:none;z-index:2;padding:56px 20px 20px}.view.open{display:flex;justify-content:center;align-items:center}.view img{max-width:100%;max-height:100%;object-fit:contain}.view button{position:absolute;top:12px;right:20px;background:#fff;color:#222}.note{padding:12px 16px;border-left:3px solid var(--accent);background:#ede7db}.download{font-size:14px}@media(max-width:720px){.pair,.baseline{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}main{padding:20px 15px}figure img{height:340px}h1{font-size:25px}}
+</style>
+<main>
+<div class="eyebrow">MYTHIC BEAST MURAL / TEST 01</div>
+<h1>异兽装饰壁画 · 人工验收</h1>
+<p>以你认可的穷奇为基准，检查烛龙与毕方能否保留同一套绘画语言。点击任意图片可放大。</p>
+<p class="note">所有新图均为待验证候选。请分别判断画风、角色特征和上色保形。两只异兽的首轮结果尚不足以证明多次生成的稳定性。</p>
+<p class="download"><a href="../../../.agents/skills/mythic-beast-mural/SKILL.md">查看 Skill</a> · <a href="REVIEW.md">查看 agent 检查记录</a> · <a href="manifest.json">查看生成记录</a></p>
+<section class="card"><h2>已认可的视觉基准</h2><div class="baseline">
+<figure><img src="../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-gray.png" alt="已认可的穷奇黑白稿"><figcaption>基准 · 黑白稿</figcaption></figure>
+<figure><img src="../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png" alt="已认可的穷奇彩色稿"><figcaption>基准 · 彩色稿</figcaption></figure>
+</div></section>
+<section class="card" data-beast="zhulong"><h2>烛龙 <span class="status">待人工验证</span></h2>
+<p class="facts">测试重点：人面、连续蛇身、无足无翼；暖红身体与独立构图。人工重点：人面和发饰偏仕女形象，是否符合你想要的古拙神性？头后上方弧带与蛇身的关系是否清楚？</p>
+<div class="pair"><figure><img src="01-zhulong-gray.png" alt="01 烛龙黑白结构稿"><figcaption>01 · 黑白结构稿　<a href="prompts/01-zhulong-gray.txt">完整提示词</a></figcaption></figure><figure><img src="03-zhulong-color.png" alt="03 烛龙彩色试稿"><figcaption>03 · 彩色试稿　<a href="prompts/03-zhulong-color.txt">完整提示词</a></figcaption></figure></div>
+<div class="grid"></div><label>具体意见<textarea name="notes" placeholder="例如：保留蛇身曲线；人面希望更古拙；红色太亮。"></textarea></label></section>
+<section class="card" data-beast="bifang"><h2>毕方 <span class="status">待人工验证</span></h2>
+<p class="facts">测试重点：鹤形、仅一足、青身红纹白喙；腿从腹部到脚爪能否清晰辨认；羽片是否仍有原图的精密叠层。首稿翼尖裁切已做一次取景修正；头部羽冠是否过于华丽，留待你判断。</p>
+<div class="pair"><figure><img src="02-bifang-gray.png" alt="02 毕方黑白结构稿"><figcaption>02 · 黑白结构稿（取景修正版）　<a href="prompts/02-bifang-gray.txt">初始提示词</a> · <a href="prompts/02b-bifang-framing.txt">修正提示词</a> · <a href="02-bifang-gray-v1.png">未修正首稿</a></figcaption></figure><figure><img src="04-bifang-color.png" alt="04 毕方彩色试稿"><figcaption>04 · 彩色试稿　<a href="prompts/04-bifang-color.txt">完整提示词</a></figcaption></figure></div>
+<div class="grid"></div><label>具体意见<textarea name="notes" placeholder="例如：线条合适；羽纹过密；一足结构可以锁定。"></textarea></label></section>
+<div class="actions"><button id="export">导出我的验收意见</button><button class="secondary" id="save">保存到此浏览器</button><span class="muted" id="message" aria-live="polite">也可以直接在对话里按图号反馈。</span></div>
+<p class="muted">本页不上传任何信息。保存使用当前浏览器的本地存储；导出会下载 JSON 文件。导出后将文件交给 Codex，或直接复制意见到对话。</p>
+</main>
+<div class="view" role="dialog" aria-modal="true" aria-label="图片放大查看"><button aria-label="关闭图片">关闭 ×</button><img alt="放大图"></div>
+<script>
+const key='mythic-beast-mural-review-2026-09-23-v1';
+const fields=[['style','同系列画风'],['identity','形态与角色'],['preservation','上色保形'],['decision','总体决定']];
+document.querySelectorAll('.grid').forEach(g=>fields.forEach(([name,label])=>{const l=document.createElement('label');l.textContent=label;const s=document.createElement('select');s.name=name;const opts=name==='decision'?['待判断','保留候选','修改后再看','认可黑白结构','认可彩色定稿','淘汰']:['待判断','符合期待','需要修改','无法判断'];opts.forEach(x=>s.add(new Option(x,x)));l.append(s);g.append(l)}));
+const gather=()=>({test:'2026-09-23-transfer-test',reviewer:'user',savedAt:new Date().toISOString(),beasts:Array.from(document.querySelectorAll('[data-beast]')).map(s=>({name:s.dataset.beast,...Object.fromEntries(Array.from(s.querySelectorAll('select,textarea')).map(e=>[e.name,e.value]))}))});
+try{const d=JSON.parse(localStorage.getItem(key)||'null');d?.beasts?.forEach(b=>{const s=document.querySelector('[data-beast="'+b.name+'"]');if(s)Array.from(s.querySelectorAll('select,textarea')).forEach(e=>{if(typeof b[e.name]==='string')e.value=b[e.name]})})}catch{}
+document.querySelector('#save').onclick=()=>{try{localStorage.setItem(key,JSON.stringify(gather()));document.querySelector('#message').textContent='已保存到当前浏览器。'}catch{document.querySelector('#message').textContent='浏览器未允许本地保存，请使用导出。'}};
+document.querySelector('#export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(gather(),null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='mythic-beast-mural-feedback.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);document.querySelector('#message').textContent='已发起验收意见下载。';};
+const viewer=document.querySelector('.view');document.querySelectorAll('figure img').forEach(i=>i.onclick=()=>{viewer.querySelector('img').src=i.src;viewer.querySelector('img').alt=i.alt;viewer.classList.add('open');viewer.querySelector('button').focus()});const close=()=>viewer.classList.remove('open');viewer.querySelector('button').onclick=close;viewer.onclick=e=>{if(e.target===viewer)close()};document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+</script>
+</html>

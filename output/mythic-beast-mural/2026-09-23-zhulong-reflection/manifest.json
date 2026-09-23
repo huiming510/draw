@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "test_id": "2026-09-23-zhulong-reflection",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "metadata_note": "Model and seed are not exposed by the built-in tool.",
+  "status": "retained_candidates_before_scene_recomposition",
+  "human_approval": null,
+  "review": "REVIEW.md",
+  "call_count": 2,
+  "generations": [
+    {
+      "id": "zhulong-human-reflection-v1",
+      "mode": "new_composition_with_style_reference",
+      "prompt_file": "prompts/11-zhulong-human-reflection.txt",
+      "prompt_text_submitted": "Use case: stylized-concept\n创作一幅新的烛龙诗意场景：水上是睁眼的美丽赤蛇，水面倒影却显出闭眼的优雅人面。横幅3:2，完整精美的彩色平面装饰插画。\n所附穷奇只作绘画语言参考：细线轻重、精密平涂形块、三级装饰层次、流动曲线与矿物色质感。不要复制穷奇的脸、身体、翼、毛发、背景花框。不要沿用之前的人头蛇身或左右昼夜分割设计。\n\n【核心画面】\n一条美丽、安静而有灵性的赤蛇盘踞在清潭岸边低矮岩石上。身体自然形成宽松而有张力的回环，前颈优雅前探，蛇首略俯，睁着眼凝视近处水面。\n真实主体从头到尾都是蛇，拥有完整自然的蛇头，温润的金褐色眼睛清楚睁开，嘴闭合，神态专注而不凶；没有人类五官、头发、狮鬃、角、翅膀、足爪、獠牙或吐信。只有一条连续的蛇、一个头、唯一尾端。尾部在岩石上收成自然小弧，和主体有清楚连接。\n蛇首与盘绕的身躯比例协调，鳞片概括优美，主色暗朱砂与赭红，腹片骨白，少量细金纹沿身体长势生长。以自然的形体、舒展盘曲和精细纹样呈现美，不把它画成凶猛毒蛇或幼态卡通。\n\n【决定性关系：真实的蛇，倒映的人面】\n下方平静水面里，蛇首对应的倒影变成一张温润、优雅的人面，双眼轻轻闭合，唇线安静，古朴清雅，带内在神性。人面只存在于水面的倒影中，绝不能把人头接在岸上的蛇身上。\n倒影的人面要与真实蛇首在水线两侧有位置、朝向和尺度的对应，依照水面透视自然上下翻转；不是在下半张画里另摆一张正立人物头像。人面的大小与蛇首的反射尺度接近，不画巨型脸。观者能一眼读出“蛇正在看水面，而水面映出另一重面容”。\n闭眼的人面是倒影里最清晰的形象。蛇躯的倒影可以较淡，以一些对应盘曲和鳞纹的断续色块出现，不必复制成另一条实体蛇。人面边缘与这些倒映形块和水色自然相融，无独立人类身体、衣服、手臂或水中站立的人；也不是悬浮的人头或水下尸体。\n轻微、疏朗的水平波纹打断倒影少量边缘，保留闭合的眼睑和鼻唇可读。波纹应证明这是水上倒影，不要把整张脸扭碎、弄成诡异面具。精致含蓄，不恐怖，不诡笑，不浓妆。\n\n【构图与环境】\n水上主体约占上半部，盘蛇、前探头颈与下方反射一起形成完整的回望曲线。水面占下半部，有足够宽阔安静的区域容纳倒影。真实蛇首与人面倒影是相互呼应的视觉焦点。\n岩岸低矮、局部、斜向切入，明确承托盘身，不能变成满屏巨大山石。远景只少量浅色山形与疏淡气息，留出宽阔背景。上部温润米白和浅玉灰，下方潭水为沉静的浅青至墨青平涂片区，水线由岸石和少量涟漪自然交代，不做横向漫画分镜。\n本幅的故事性来自蛇凝视自身人面倒影的这一瞬间。不要再添加太阳、月亮、星空、阴阳符号、光环、亭阁、其他生物或分屏昼夜。环境服务水与倒影，不再套用满屏云纹和同一套花框。\n\n【共同画法】\n画面必须保持参考的精美平面装饰画语言。蛇、岸石、水纹、倒影使用一致的细线与清晰形块；轮廓、中层鳞组和局部微纹有轻重和疏密，宁静的大面衬托精细部位。鳞纹精致，绝不是写实照片里的密集爬虫皮肤。\n倒影通过偏冷色块、边缘的波纹断续、少量轮廓错位表现，保持平涂和二维，不使用摄影级镜面渲染、3D、电影光效、浮雕、厚涂、景深或运动模糊。轻微纸壁颗粒。无文字、标题、题签、印章、水印、示意线。\n",
+      "references": [
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png",
+          "role": "style_reference_only",
+          "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3"
+        }
+      ],
+      "output_file": "11-zhulong-reflection-v1.png",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-60e3f0b0-48b6-456d-9c56-fd5e5ea29392.png",
+      "tool_status": "succeeded",
+      "agent_observation": "Awake serpent and closed-eye human reflection visible; face orientation and size do not correspond well to the serpent head.",
+      "human_review": "pending",
+      "prompt_file_sha256": "9af45b62dee1623e2ddba5df617dc9d7e85737702d22b3242abce7722712c69d",
+      "submitted_prompt_sha256": "9af45b62dee1623e2ddba5df617dc9d7e85737702d22b3242abce7722712c69d",
+      "output_metadata": {
+        "sha256": "87ff3d8193fe64103f389e4d0cac4823e9253c61ea041f9247fe2ea031e56203",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      }
+    },
+    {
+      "id": "zhulong-reflection-orientation",
+      "mode": "targeted_edit",
+      "prompt_file": "prompts/12-reflection-orientation.txt",
+      "prompt_text_submitted": "Use case: precise-object-edit\n输入图是唯一编辑目标。保留整张图的画风、构图、色彩、所有水上内容、睁眼蛇首、盘绕蛇躯、岩岸、花枝、远山及水面主要纹理。只修正水中人面倒影的朝向、位置和尺度。\n\n目前水面下的人面基本是正立的，像水中有一个独立的人。请把它改为真正对应上方蛇首的倒影：\n人面在画面中必须上下倒置（UPSIDED-DOWN HUMAN FACE AS A WATER REFLECTION），不能保持正立。下颌靠近水线和蛇吻的下方，上下倒置的鼻唇在上、闭合的眼睛在鼻子下方、额头朝向画面下方。人面中轴大致对应上方蛇首的中轴，让人一眼读出是蛇低头看见的变形倒影。\n人面仍优雅、宁静、双眼闭合，古朴温润；缩小到接近蛇首反射应有的尺度，不扩大成一张占据大半水面的人像。反射只是一层冷青和骨白平涂形块，与原有映出的蛇身相融。\n用少量水平波纹断开人面边缘，保留闭合眼睑与柔和五官的可辨识性。不生成水下实体人物、脖颈、肩膀、衣服、手、第二张脸；不画惊悚的漂浮头部。它完全属于水面的图像。\n不要改变蛇头及其睁开的眼睛，不改变蛇身姿态，不增加任何物件。保持原图精密细线、矿物色平涂、水纹与轻微纸壁质感，避免写实人像皮肤。无文字或水印。\n",
+      "references": [
+        {
+          "path": "11-zhulong-reflection-v1.png",
+          "role": "sole_edit_target",
+          "sha256": "87ff3d8193fe64103f389e4d0cac4823e9253c61ea041f9247fe2ea031e56203"
+        }
+      ],
+      "output_file": "12-zhulong-reflection.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-3ee129c2-751d-42a7-890f-241e9b0e665d.png",
+      "agent_observation": "Water-face is now inverted with both eyes closed and reduced in size beneath the awake serpent. Main above-water elements appear preserved. Aesthetic and reflection readability await user judgment.",
+      "prompt_file_sha256": "b5463523186bc17c2fd332d68be83959ae9b358d725ef48dae3bda49e24cb563",
+      "submitted_prompt_sha256": "b5463523186bc17c2fd332d68be83959ae9b358d725ef48dae3bda49e24cb563",
+      "output_metadata": {
+        "sha256": "d6bd6e12bbeb4f0241d9c7a67e48bdf4fc48c297ef1547437ab6c01a870713b4",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      }
+    }
+  ],
+  "current_candidate": "12-zhulong-reflection.png",
+  "recorded_at_utc": "2026-09-23T06:59:29.249994+00:00",
+  "followup_request": "像一幅场景画而不是角色的档案画",
+  "continued_in": "../2026-09-23-zhulong-narrative/manifest.json"
+}

@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "test_id": "2026-09-23-transfer-test",
+  "test_date_local": "2026-09-23",
+  "timezone": "Asia/Shanghai",
+  "skill": "../../../.agents/skills/mythic-beast-mural/SKILL.md",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "model_seed_note": "Tool did not expose model or seed. Actual output dimensions are recorded from PNGs; no explicit size parameter was available.",
+  "status": "generation_complete_human_review_pending",
+  "human_approval": null,
+  "call_count": 5,
+  "candidate_count": 4,
+  "preserved_superseded_outputs": [
+    "02-bifang-gray-v1.png"
+  ],
+  "review": "REVIEW.md",
+  "review_page": "review.html",
+  "dossier": "../../../.agents/skills/mythic-beast-mural/references/beasts.md",
+  "scope_note": "Two characters, one initial generation per character and one justified framing correction. This is a process and transfer test, not a statistical repeatability test.",
+  "post_test_skill_change": "Added observed wing-tip clipping risk and explicit full-body margin check to references/style.md. The updated wording has not been independently retested.",
+  "generations": [
+    {
+      "id": "zhulong-gray",
+      "invocation_order": 1,
+      "prompt_file": "prompts/01-zhulong-gray.txt",
+      "prompt_text_submitted": "Use case: stylized-concept\n用途：中国异兽图集系列画风迁移测试，黑白结构稿。\n输入图1仅为画风参考：已认可的穷奇黑白稿。创作一幅全新的烛龙，不要复制参考角色、器官或构图。\n\n【形态与气质】\n采用《山海经·大荒北经》的人面蛇身形态。画面仅一只神祇，一个古朴的人类面孔，直接连接一条漫长而连续的蛇躯，末端只有一条渐细的蛇尾。没有人类胸肩、手臂或躯干；没有足、爪、翅膀、鹿角、虎耳、虎吻和背部长刺。古老、肃静、诡谲，平静凝视，嘴闭合。人面必须明确可辨，不能画成普通龙头或虎头。\n本次原创演绎：蛇躯以一条宽大舒展的 S 形主曲线横贯画面，前后交叠两次，头到尾都可追踪。采用略侧转的人面，长躯的弧线和眼神共同形成神性。\n\n【构图】\n横幅约 3:2，完整呈现头、躯体和尾尖，画面饱满。主躯体占据主要面积，头部位于上方一侧，长身盘曲而非堆成紧密圆团。保留两三个宽阔的负形，浅灰流云沿体外呼应，云纹不得伪装成蛇的身体。边框只用纤细线条，主体不被边框裁切。先见完整蛇躯动势，再发现人面，最后发现鳞片与腹节的内在纹样。\n\n【画面语言】\n忠实继承输入图的精细线条、舒展曲线、优雅的平面装饰叠层和疏密节奏。融合壁画古意、剪纸般的形块关系与精细装饰插画。每个形块内部平涂，前后通过遮挡、错位、穿插、嵌套和留白表现，不通过光照或渐变塑造体积。\n大轮廓、中尺度装饰形块、微纹三个尺度组织。纹饰沿蛇躯生长：背部为顺躯干走势的长鳞片，腹部为清晰节片，转弯处略密，长段体侧保留安静大面。人面用简洁精细的眼、鼻、嘴线条保持可读。鳞片不能变成羽毛、毛鬃、叶子或翅膀。\n\n【本次输出】\n只用中性黑、白、灰，以约四至五个可区分的平涂灰阶完成结构与装饰。是完成度高的灰阶装饰画，不是铅笔草图、线描练习或纯剪影。轻微纸壁颗粒，纹饰与轮廓清楚。\n\n【避免】\n无文字、印章、题签、水印。无任何彩色或金色。无写实肌肉、蛇鳞立体高光、体积渐变、3D、浮雕、厚重阴影、摄影光照、统一粗黑描边、卡通贴纸效果。避免每寸填满碎纹。不要沿用参考穷奇的虎脸、四足、双翼、刺鬃或低伏姿态。",
+      "references": [
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-gray.png",
+          "role": "drawing_style_reference_only",
+          "metadata": {
+            "sha256": "f43fd6cd56b824d23c1664de112a557006d451a4ea881a160f948f2e552cba76",
+            "bytes": 2559972,
+            "width": 1751,
+            "height": 898,
+            "format": "PNG"
+          }
+        }
+      ],
+      "output_file": "01-zhulong-gray.png",
+      "parent_generation": null,
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-349bcf26-cabd-42b2-95ea-ee7d6b64ee46.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "prompt_file_metadata": {
+        "sha256": "8e8dddf2b1c23ad4d09af57da10da76adb2cc6da8674c2ecd42a0a6ace088db1",
+        "bytes": 2506
+      },
+      "submitted_prompt_sha256": "5ef867ed4c5a4f77f293a7999496cac0b13c5777c7a6b91b9671078832dbee08",
+      "output_metadata": {
+        "sha256": "1f961afe8061be8595d8c99508968b3cd363a44f77114cf6cb480671e3bde3b3",
+        "bytes": 2997120,
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      },
+      "source_file_modified_at_utc": "2026-09-23T03:28:33.358260+00:00"
+    },
+    {
+      "id": "bifang-gray-v1",
+      "invocation_order": 2,
+      "prompt_file": "prompts/02-bifang-gray.txt",
+      "prompt_text_submitted": "Use case: stylized-concept\n用途：中国异兽图集系列画风迁移测试，黑白结构稿。\n输入图1仅为画风参考：已认可的穷奇黑白稿。创作一幅全新的毕方，不要复制参考角色、器官或构图。\n\n【形态与气质】\n采用《山海经·西山经》章莪山的毕方：鹤形，一足，长喙。画面只有一只鸟、一个头、两只翼、仅一条腿和一只脚。单腿是其天生结构，不是双腿鸟把另一条腿收起或藏在羽毛里。腹部下方唯一的腿从连接点到脚爪完整可见，脚的分趾属于同一只脚。\n修长的鹤颈、细长而明确的喙、清峻警觉的眼神。两翼一收一展，羽片沿翼骨连续展开。尾部短而利落，不要凤凰的拖地长尾、巨大羽冠或猛禽弯钩嘴。\n\n【构图】\n竖幅约 2:3，体态修长但构图充实。头与弯曲长颈形成上部主曲线，展翼形成宽阔中层，唯一长腿落入下方安静负形，与整只鸟的重心连成完整动势。全身连同喙尖、翼尖和足爪都在画面内。腿周围保持清楚留白。薄而流动的装饰云气只在外围呼应，不遮腿、脚或嘴。先见鹤形的神异姿态，再认出唯一一足，最后发现羽中火舌状纹饰。\n\n【画面语言】\n继承参考图的细线勾勒、舒展装饰曲线、精密平面叠层和丰富中层形块。壁画古意结合剪纸形块关系。每个片块内部平涂，空间只靠遮挡、穿插、错位、嵌套与留白；不以体积光影表现。\n外轮廓、羽片分组、局部微纹具有轻重层级。羽片有长短和疏密分组，细小火舌状纹饰依附羽片走向，脸与颈部保留安静大面。不要复制穷奇的具体翅膀形状，更不要虎脸、虎纹、爪足或刺鬃。\n\n【本次输出】\n只用中性黑白灰，约四至五个可区分的平涂灰阶，完成中层羽片与局部微纹。喙预留为接近白色，主体羽片为中深灰，火舌纹用不同灰阶区分，便于下一阶段分别上青色与红色。轻微纸壁质感。作品完成度高，不是粗略线稿。\n\n【避免】\n无文字、印章、题签、水印和彩色。无第二条腿，不能靠遮挡腿来假装一足。无凤凰长尾、龙角、虎脸、哺乳动物四足、额外翅膀。无写实羽毛光泽、体积渐变、3D、浮雕、厚重投影、摄影光照、统一粗黑描边、普通卡通贴纸感。背景不喧宾夺主。",
+      "references": [
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-gray.png",
+          "role": "drawing_style_reference_only",
+          "metadata": {
+            "sha256": "f43fd6cd56b824d23c1664de112a557006d451a4ea881a160f948f2e552cba76",
+            "bytes": 2559972,
+            "width": 1751,
+            "height": 898,
+            "format": "PNG"
+          }
+        }
+      ],
+      "output_file": "02-bifang-gray-v1.png",
+      "parent_generation": null,
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-f989c3ba-8c1a-493e-aa70-c9fa085f305a.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "prompt_file_metadata": {
+        "sha256": "bb3b48bd50a162d870213dc117ac0f27816df799585ed928188ae1b418745698",
+        "bytes": 2434
+      },
+      "submitted_prompt_sha256": "b044ce9f2d8883f739b151829fa2173a0db0ebb66f4a41f9f94db385e3be21bb",
+      "output_metadata": {
+        "sha256": "e9607006a035acec2edbdd21382fce48cabaf6c742db710c1fe55bc31cc48509",
+        "bytes": 2740894,
+        "width": 1024,
+        "height": 1536,
+        "format": "PNG"
+      },
+      "source_file_modified_at_utc": "2026-09-23T03:31:58.367491+00:00"
+    },
+    {
+      "id": "zhulong-color",
+      "invocation_order": 3,
+      "prompt_file": "prompts/03-zhulong-color.txt",
+      "prompt_text_submitted": "Use case: precise-object-edit\n第一张图是本次烛龙的黑白结构稿，是唯一编辑目标。第二张图是已认可的穷奇彩稿，仅参考平涂处理、细线精度、矿物色质感与轻微纸壁颗粒。请仅对第一张图上色。\n\n锁定第一张图的画幅、外轮廓、一个人面、单条连续蛇躯及唯一尾尖、姿态、身体交叠关系、全部主要鳞片与腹节边界、主要留白和背景构图。不要重画脸、增减器官或移动身体。不得带入穷奇的虎脸、四足、翅膀、虎纹和刺鬃。\n\n遵循烛龙“人面蛇身而赤”的设定。身体主色为深朱砂与赭红，不采用穷奇的黛青主体。相邻鳞片用暖赤褐、少量更深的墨褐平色区分；腹节用温润骨白与浅赭。人面为淡骨白，眼线沉静清楚，唇色收敛。局部微纹用少量哑金细线，金色不能产生金属反光。背景保持浅暖灰与极淡米白，外围云气低对比。让暖红身体成为绝对主角。\n\n每个片块均保持平涂，通过颜色和明度区分原有层次。不使用体积渐变、方向性照明、镜面高光、阴影、3D、浮雕或油画厚涂。保持细线、精密中层装饰与疏密节奏。只允许非常轻的纸壁颗粒。无文字、标识、印章、水印。\n\n这是供人工验证的彩色试稿，不新增装饰物或改变角色设计。",
+      "references": [
+        {
+          "path": "01-zhulong-gray.png",
+          "role": "edit_target",
+          "metadata": {
+            "sha256": "1f961afe8061be8595d8c99508968b3cd363a44f77114cf6cb480671e3bde3b3",
+            "bytes": 2997120,
+            "width": 1536,
+            "height": 1024,
+            "format": "PNG"
+          }
+        },
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png",
+          "role": "color_drawing_style_reference_only",
+          "metadata": {
+            "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3",
+            "bytes": 2790136,
+            "width": 1752,
+            "height": 898,
+            "format": "PNG"
+          }
+        }
+      ],
+      "output_file": "03-zhulong-color.png",
+      "parent_generation": "zhulong-gray",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-fdc3fa46-3328-44f9-940e-2c7effd1c6bc.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "prompt_file_metadata": {
+        "sha256": "caf7a8a9ae073fb2847bb36c5e3b7781d96720365beedc69c915d8761058e05f",
+        "bytes": 1376
+      },
+      "submitted_prompt_sha256": "c7bc6c4d60880a5f4bac033c3b10d05498aa9b24b876cca6c533f2da117aac93",
+      "output_metadata": {
+        "sha256": "63816c5b2912d2a4868d226fe9b5c2b7b79ce0fb964dc21951d35f26a466593e",
+        "bytes": 2936259,
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      },
+      "source_file_modified_at_utc": "2026-09-23T03:32:16.321031+00:00"
+    },
+    {
+      "id": "bifang-framing-correction",
+      "invocation_order": 4,
+      "prompt_file": "prompts/02b-bifang-framing.txt",
+      "prompt_text_submitted": "Use case: precise-object-edit\n以所附毕方黑白结构稿为唯一编辑目标。只修正一个问题：上方展开的翼尖被画幅裁切。请保持约2:3竖幅，将鸟的整体在原有画面中适当缩小、重新容纳，让最高的翼尖完整出现，离画面顶边至少有约5%的清楚空白；同时喙尖、其他翼尖、尾尖和足爪都完整留在画内。补全被裁掉的少量羽片尖端，整理相应外围留白与细边框即可。\n\n保留同一只毕方的头脸与眼神、长喙、弯曲长颈、一收一展的两翼关系、短尾、身体比例、唯一一条腿与一只脚、现有羽片分组、微纹、主曲线、细线风格和中性黑白灰配色。只有一条腿，从腹部连接到脚爪需清楚连续。不要新增第二条腿，不能收起或遮挡脚。不要添加凤凰长尾或夸大羽冠。\n\n保持单块灰阶平涂、精密平面叠层和轻微纸壁颗粒；不加入写实体积、渐变、摄影光照、浮雕、彩色或文字。此次是同一版本的取景修正，不重新设计一只新鸟。",
+      "references": [
+        {
+          "path": "02-bifang-gray-v1.png",
+          "role": "edit_target",
+          "metadata": {
+            "sha256": "e9607006a035acec2edbdd21382fce48cabaf6c742db710c1fe55bc31cc48509",
+            "bytes": 2740894,
+            "width": 1024,
+            "height": 1536,
+            "format": "PNG"
+          }
+        }
+      ],
+      "output_file": "02-bifang-gray.png",
+      "parent_generation": "bifang-gray-v1",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-977f2284-b2eb-4894-8de0-9e68a6e4b52b.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "prompt_file_metadata": {
+        "sha256": "27989a7e85cf5bf1466fd84882efb32cabc7c9ef22d5c052405ccb27abd372df",
+        "bytes": 1072
+      },
+      "submitted_prompt_sha256": "27371f524437e2df8fe0ed13676f8fb575d01fd7b3b756feafaeef41fe662577",
+      "output_metadata": {
+        "sha256": "b3f2ade16ad80ef32737309103bcd261f1b383e4303cedba84d51cd3f7381c30",
+        "bytes": 2704301,
+        "width": 1024,
+        "height": 1536,
+        "format": "PNG"
+      },
+      "source_file_modified_at_utc": "2026-09-23T03:34:07.886033+00:00"
+    },
+    {
+      "id": "bifang-color",
+      "invocation_order": 5,
+      "prompt_file": "prompts/04-bifang-color.txt",
+      "prompt_text_submitted": "Use case: precise-object-edit\n第一张图是本次毕方的黑白结构稿，是唯一编辑目标。第二张图是已认可的穷奇彩稿，仅用于绘画语言参考。请只给第一张图上色，不照搬第二张图的身体、图案或配色比例。\n\n保持第一张图的竖幅、一个鹤形头、长颈、两翼的原有位置、唯一一条腿与一只脚、所有器官连接、短尾、主要羽片边界、原有纹样、主体轮廓和留白。唯一腿从腹部至足爪仍需连续清楚；不得增加第二条腿，不能将腿改成云纹，也不得藏脚。\n\n遵循毕方“赤文青质而白喙”。主羽采用沉静石青与青绿两种平色，以少量深墨青区分相邻片块。沿原稿的火舌纹着暗朱砂红，红纹依附羽片走向，不重画纹样。长喙必须骨白，脸和颈部保留适量骨白与浅青色大面。腿为收敛的灰赭色，线条可用细哑金或墨青但不形成粗轮廓。背景淡米白，外围云气淡灰青，保持主体对比度。\n\n每个片块内部平涂，层次来自原稿的遮挡、穿插和留白。保持细线轻重与精密叠层，纸壁质感轻微，不要光照渐变、摄影阴影、3D、浮雕、金属光泽或厚涂。无文字、标识、印章、水印。不要虎纹、虎脸、兽爪、角、背刺或凤凰长尾。\n\n这是供人工验证的彩色试稿。除了颜色，不改变第一张图的形态、构图和装饰结构。",
+      "references": [
+        {
+          "path": "02-bifang-gray.png",
+          "role": "edit_target",
+          "metadata": {
+            "sha256": "b3f2ade16ad80ef32737309103bcd261f1b383e4303cedba84d51cd3f7381c30",
+            "bytes": 2704301,
+            "width": 1024,
+            "height": 1536,
+            "format": "PNG"
+          }
+        },
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png",
+          "role": "color_drawing_style_reference_only",
+          "metadata": {
+            "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3",
+            "bytes": 2790136,
+            "width": 1752,
+            "height": 898,
+            "format": "PNG"
+          }
+        }
+      ],
+      "output_file": "04-bifang-color.png",
+      "parent_generation": "bifang-framing-correction",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-7669a0e0-92f0-4b16-9b45-6d1b1fd602c1.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "prompt_file_metadata": {
+        "sha256": "fa1ceee1a91aa566c549119f83a5bb17490821733c658656d1a4b627b5a86f51",
+        "bytes": 1442
+      },
+      "submitted_prompt_sha256": "dde2280747d6cf805fd9116dcc0ce63a7cb9402a8bcad05407f71d4fe65ec0a2",
+      "output_metadata": {
+        "sha256": "70f8c08630fcff6ea6b1cbd2cd640710a90a08caecffc4fa3600c4af05ad14cf",
+        "bytes": 2601083,
+        "width": 1024,
+        "height": 1536,
+        "format": "PNG"
+      },
+      "source_file_modified_at_utc": "2026-09-23T03:38:16.553023+00:00"
+    }
+  ],
+  "timestamp_note": "Per-output timestamps are filesystem modification times of generator cache files, not independently measured request start/end times.",
+  "manifest_updated_at_utc": "2026-09-23T03:40:19.669567+00:00",
+  "delivered_skill_snapshot": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "9430d19aaaf097224d441e9d3acc53b26fc062e8be173fe9c07affed092639cb",
+      "bytes": 306
+    },
+    {
+      "path": "assets/qiongqi-approved-color.png",
+      "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3",
+      "bytes": 2790136
+    },
+    {
+      "path": "assets/qiongqi-approved-gray.png",
+      "sha256": "f43fd6cd56b824d23c1664de112a557006d451a4ea881a160f948f2e552cba76",
+      "bytes": 2559972
+    },
+    {
+      "path": "references/beasts.md",
+      "sha256": "1cde8718860c57ac8c617b5aafc548113c5f0d9bef3d6b7e9013138b83cee2e6",
+      "bytes": 2648
+    },
+    {
+      "path": "references/prompts.md",
+      "sha256": "1336ebe45c6dfabe839d16f96d546076f459798c7fb5ece4c7967b768a27571f",
+      "bytes": 3653
+    },
+    {
+      "path": "references/provenance.md",
+      "sha256": "95fc79552294ff741a5c4b9e0cf21fe0b992bbaaf77bd2daec3e51be95b34c2b",
+      "bytes": 1556
+    },
+    {
+      "path": "references/style.md",
+      "sha256": "63a08705988ff8ce7d0c4604e2b6a41383d8f1c89d07c6d0aa23630518980202",
+      "bytes": 3220
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "a88480c5cbd361b334072755f50bf74add36d2d14c8554c730aecab9ff86b1f5",
+      "bytes": 6363
+    }
+  ]
+}

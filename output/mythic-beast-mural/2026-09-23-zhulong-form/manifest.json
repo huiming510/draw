@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "test_id": "2026-09-23-zhulong-form",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "metadata_note": "Tool did not expose model or seed. Dimensions are read from output PNGs.",
+  "status": "user_rejected_08_scene_rebuild_requested",
+  "human_approval": false,
+  "review": "REVIEW.md",
+  "skill": "../../../.agents/skills/mythic-beast-mural/SKILL.md",
+  "call_count": 2,
+  "generations": [
+    {
+      "id": "zhulong-integrated-form-v1",
+      "mode": "edit",
+      "prompt_file": "prompts/07-zhulong-integrated-form.txt",
+      "prompt_text_submitted": "Use case: precise-object-edit\n用途：中国神话异兽图册，烛龙角色形态定制第一稿。\n输入图1是要重新设计角色结构的烛龙彩稿。输入图2是已认可的穷奇，仅作细线、平面形块和精密装饰画法参考；不要复制穷奇的身体、毛发、虎脸、翅膀或背景。\n任务：重点解决输入图1蛇身混乱、人头与蛇颈接合突兀的问题。允许重新设计烛龙的头面、全部蛇躯路径及其纹样；延续原作的横幅3:2、赭红骨白主体与克制的金色细线、壁画古意。保留原来的暗明天空和横向层山作为低对比背景，除为新轮廓让出空间外，不展开新场景。\n\n【图册的角色设计目标】\n把“人面蛇身而赤”的奇异形态转译成结构自然、优雅而令人愿意欣赏的神兽。温润、宁静、有智慧和神性，平视的目光，柔和但有精神。保留异兽身份和古意，不做恐怖拼接，也不做幼态大头萌宠、网红美女或普通长吻龙。\n\n【重新构建清楚的单一蛇身】\n画面恰好只有一个头、一条连续颈躯、一条渐细尾部，无足无翼无角。\n重新画一条舒展、开放、宽大的S形身体，沿横幅斜向延伸，用两三个清楚的大弯形成张力。这一稿的身体不自交、不闭环、不打结：头到尾的两侧边界都能顺畅追踪，弯曲之间有宽阔负形，不互相挤在一起。蛇躯从颈部逐渐充实，过腰部后逐渐变细至唯一尾尖，粗细变化自然。腹部骨白节片是沿下侧连续的一条带，顺弯转向，不能突然分叉或像第二条身体。\n彻底删除原图头后的粗大圆环／回卷躯体、中央打结的叠绕和任何多余尖端。头在左上区域微微前探，身体有舒展而自持的动势，尾部在右侧以一个简洁细弧收束。头和尾尖全在画幅内，四周有呼吸空间。不要为了填满画幅又加盘绕。\n\n【人面与蛇首颈部一体化】\n重新设计一个属于这具身体的完整头颈。人面是蛇首自然具有的面容：用简练、古朴、清楚的人类眉眼、鼻梁与闭合唇线辨识“人面”，脸部温润骨白，不带写实皮肤和浓妆；脸不必沿用原图女性肖像。\n额侧、太阳穴、脸颊外缘已有细小温和的赤色与浅金鳞片；这些鳞片逐渐过渡到后脑、后颈和躯体的大鳞片，让脸、头壳、颈部成为同一生物的连续结构。下颌的浅色区域顺畅延续为喉部和腹面的骨白节片，面部中轴与颈部弯曲方向协调。\n头宽与紧接的颈宽接近，比例协调；不出现人类细脖颈、胸肩、锁骨或胸像，不在独立人头下接一根细蛇脖。鳞片过渡靠形状大小和疏密变化，不靠照片式皮肤融合或黏液。\n去掉原有繁复盘发、珠串、耳坠和头后圆盘，以顺向短鳞构成简洁冠状轮廓；没有飘散的长发遮住头颈连接。额与脸颊保持温润清爽，表情安定，嘴闭合，不露牙、不吐信、不瞪眼。\n\n【延续精密装饰画法】\n身体是明确的大轮廓，顺躯体曲线分组的中尺度长鳞片，局部再嵌细小卷曲纹饰。精细但有安静大面，不是均匀密布真实蛇鳞。小纹饰顺身体生长，不能制造假肢、假尾或第二段身体。轮廓与内线有轻重，整体轻盈，所有色块内部平涂，层次由边界、嵌套和留白产生。\n主色赭红、深朱砂，腹片骨白，少量暖金细线。与穷奇参考继承共同的细线和形块语言，但不照搬其颜色比例和器官。背景仍为低饱和横向层山与原有暗明平涂色域，压低背景密纹的对比，让头颈过渡和整条身体最清楚。\n无3D、厚涂、浮雕、摄影光照、体积渐变、写实爬虫皮肤或恐怖质感。无文字、印章、水印。交付一张完整彩色结构修订候选。\n",
+      "references": [
+        {
+          "path": "../2026-09-23-background-test/05-zhulong-background.png",
+          "role": "edit_target",
+          "sha256": "f69fbf72c7545484aa897ed303d2e4fe715b89e8da4a2e2dca4bec34c21ccd21"
+        },
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png",
+          "role": "style_reference_only",
+          "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3"
+        }
+      ],
+      "output_file": "07-zhulong-form-v1.png",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-d974f4ee-3b53-446a-b0a3-435b4f867ca4.png",
+      "agent_structure_check": "needs_revision_two_tail_like_endpoints_and_ambiguous_body_path",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "prompt_file_sha256": "67e6c63ac96ff30d94100fb736e670d7c8020a56fb3a2e223c05b2d810d8c4b1",
+      "submitted_prompt_sha256": "67e6c63ac96ff30d94100fb736e670d7c8020a56fb3a2e223c05b2d810d8c4b1",
+      "output_metadata": {
+        "sha256": "bf62505375fc04233521d4c92aa88856e23a3804f0ad2cc6ed0b696fe58ea6c5",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      }
+    },
+    {
+      "id": "zhulong-clear-path",
+      "mode": "new_composition_with_style_reference",
+      "prompt_file": "prompts/08-zhulong-clear-path.txt",
+      "prompt_text_submitted": "Use case: stylized-concept\n重新构图生成一幅全新的烛龙彩色插画。所附穷奇仅是绘画语言参考：继承其精密细线、平面装饰片块、流动节奏和精美程度；不画穷奇，不复制它的姿态、肢体、翅膀、背景或颜色比例。\n此次优先级：1. 单一蛇身绝对清楚；2. 人面和头颈自然属于同一个生物；3. 温润有神性、愿意欣赏；4. 细线与平面装饰完成度。\n\n【唯一的身体路径】\n横幅3:2，全图只有一只烛龙：一个头，一条连续的长蛇身，末端只有一条逐渐变细的尾。\n采用从画面左侧向右侧单向展开的舒展波形，躯体完全不重叠、不交叉、不分叉、不盘成圈，清晰简单的剪影。不要一条前景蛇再配一条后景蛇，也不要额外装饰尾。\n下面是相对于画幅的身体中轴路径，用来避免路径含混：\n头在左上约(20%,25%)，略朝右；蛇颈从头的后下方自然弯向(22%,52%)；连续主躯向右下舒展到(48%,70%)；再顺滑地向右上弯至(73%,40%)；接着向右延伸并逐渐变细，唯一尾尖在(92%,52%)附近收束。坐标只作隐含构图指引，图上不显示任何数字、文字、标记或辅助线。\n除了左侧上扬颈部，每一身段都朝右推进，不向左回折，不添加下方回卷。头至尾是一条完整连贯管状身形，依序头、颈、躯、尾，均可用眼睛直接追踪。躯体的红色背部和骨白腹部始终属于同一段身体，腹节为连续带而非另一条蛇。身体中段饱满，尾部单调渐细，无额外尖头。主体占画面大部但留出头尾周边边距。\n\n【作为一体设计的人面蛇首】\n这是“人面蛇身而赤”的原创美学转译。请把人类眉眼、鼻梁、闭合唇线设计在同一枚温润的神兽头首上：古朴清雅，有智慧、安定、平静凝视；不用恐怖拼接，不用写真美人，不幼态。\n头首略向前探，五官清晰而简练，脸面为骨白平涂。额侧、太阳穴、耳侧和颊缘的浅金／朱红小鳞形成自然的表面过渡，后脑轮廓顺畅连入后颈，鳞片顺生长方向逐渐变大。浅色下颌区域顺势延续成喉腹连续的骨白节片。\n头与颈粗细协调，头部轴线顺颈弯自然转动。没有人类细脖、锁骨、胸肩和胸像，也没有断头感。没有人类盘发、长发、首饰、耳坠或头后光环。用低矮、贴合后脑的层叠鳞片收头形，不能长出大羽冠、飞翅、长角或蓬松狮鬃。口闭合，无獠牙、吐信、瞪眼。\n\n【画法与颜色】\n同参考的高级平面装饰绘画语言：细线轻重明确，轮廓、大片鳞组和局部微纹有三个尺度，花纹顺身体方向生长。漂亮的中层鳞组和内部少量卷纹让它精美，不用写实爬虫皮肤，不均匀填满碎鳞。\n主体赭红与暗朱砂，骨白腹面，局部暖金细线，每块平涂。鳞片大小有序，连续腹节明确，少量安静大面衬细纹。非3D，无摄影打光、浮雕、厚涂、强阴影、体积渐变、湿滑黏液质感。不是普通龙：无长兽吻、足爪、翅膀、角或多尾。\n\n【克制的环境】\n背景只用低对比的横向平面层山，下部山纹稀疏，天空有一个开阔深蓝黑色域向骨白色域过渡，边界清晰而不渐变。环境让头颈和整条躯体轮廓特别清楚。没有背景云卷、珠环、角花、第二条红色带状物或与身体混淆的形状。细微纸壁颗粒与参考一致。暂不展开复杂故事或新增背景物件。\n完整的一幅图，没有分镜、图解、标题、文字、印章、水印。\n",
+      "references": [
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png",
+          "role": "style_reference_only",
+          "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3"
+        }
+      ],
+      "output_file": "08-zhulong-clear-path.png",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-6e844038-53c7-4bd3-8db6-f0459b22bc64.png",
+      "agent_structure_check": "single_continuous_body_and_tail_visible_head_neck_aesthetic_acceptability_pending_user",
+      "limitations": "Background changed in recomposition; pale disc and cloud bands reappeared, along with slight tonal shading. Head scales still suggest a mane.",
+      "tool_status": "succeeded",
+      "human_review": "rejected",
+      "prompt_file_sha256": "417858ad184a47ec04300997a1e358954b6a39c7b0964c62b1ebe981ce9fb5f4",
+      "submitted_prompt_sha256": "417858ad184a47ec04300997a1e358954b6a39c7b0964c62b1ebe981ce9fb5f4",
+      "output_metadata": {
+        "sha256": "d8159bbd77bc55e335ba6e68aa3d3c47209cdd7ff271056101216016a9b22adf",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      }
+    }
+  ],
+  "recorded_at_utc": "2026-09-23T06:38:34.016305+00:00",
+  "rejected_candidate": "08-zhulong-clear-path.png",
+  "user_feedback": "太丑；蛇形异兽应有盘曲。先转入背景与动作重塑，暂不继续孤立修形。"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "test_id": "2026-09-23-zhulong-scene",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "metadata_note": "The built-in tool did not expose model or seed.",
+  "status": "scene_candidate_pending_human_review",
+  "human_approval": null,
+  "current_candidate": "09-zhulong-awakening.png",
+  "review": "REVIEW.md",
+  "call_count": 1,
+  "generations": [
+    {
+      "id": "zhulong-awakening-scene",
+      "mode": "new_composition_with_style_reference",
+      "prompt_file": "prompts/09-zhulong-awakening.txt",
+      "prompt_text_submitted": "Use case: stylized-concept\n创作一幅全新的烛龙故事场景，横幅3:2，完整彩色插画。\n所附穷奇是唯一绘画语言参考：继承它的细线轻重、精密平面装饰、流动形块、疏密变化和矿物色质感。不复制穷奇的虎脸、四足、翼、刺毛、姿态或背景图案。\n这次重点是“故事瞬间中的场景、动作和构图”。不要做悬浮的直条蛇标本或人头肖像配风景。让角色盘曲的动势与环境真正结合。\n\n【决定性瞬间】\n以《山海经》烛龙“人面蛇身而赤”“其暝乃晦，其视乃明”的语义作原创场景演绎：\n章尾山仍有深青暮色，烛龙原本盘踞在高处岩台，此刻刚从盘身中抬起前躯，头部转向远处谷口，眼睛初睁；谷口与层层山脊正由晦转明，近处仍暗，远处已显出骨白与淡赭金的晨色。把“抬首尚未完全舒展、眼刚睁开、明色刚进入山谷”的同一瞬间定格。具有刚刚苏醒的神性、舒缓而蓄势的力量，画面自然优美而非惊悚。\n这是本次原创的动作和场景组合，不需画古籍文字。\n\n【角色与地形共同构图】\n烛龙占画面约左侧至中部，躯体必须有优美盘曲和错落的前后穿插。厚实蛇躯在山肩岩台上盘出一个饱满、略倾斜的大椭圆回环，环内能看见岩面；后段由岩脊后绕出，在前下方形成松紧变化的弧，逐渐收为唯一尾尖。盘曲有承托和重量感，不是空中游泳的横向波浪。允许清晰的自身遮挡，但前后关系明确，不增加第二条蛇或重复尾。\n前颈从盘绕躯体的一端向上提起，再顺势朝谷口微微扭转；头颈的上行动势与下部压住岩台的盘身形成拉力，头不单独摆造型。头保持中等偏小的比例，使它属于整个神兽，而不成为画面最大的人脸。人面五官以古朴简练的线条表示，嘴闭合，温润而专注；颊缘与后脑的细鳞自然接入颈部。不做时装美女，不保留繁复人类发髻首饰。只有一个头、连续蛇身、一个尾尖，无肢足、无翼无角。\n核心身份和头尾须可辨，不能用前景或云雾把连接问题完全藏住。腹面的骨白节片跟随同一条蛇身转动。盘身、抬颈、岩台及其负形是画面的整体主曲线。\n\n【背景是事件的一部分】\n谷口位于角色视线指向的右方；两侧高低不齐的岩脊形成向纵深展开的开口，观者能感觉到烛龙正从近处山肩俯看这片世界。\n近景岩台以层叠的灰青、深墨青和少量赭色扁平岩片表现，岩纹顺承重方向和地层生长，与蛇躯弧线形成曲直对照。中景山脊和狭长的谷间云气向右侧明域延伸，呼应头部转向；远山逐层变为浅玉灰、骨白和淡赭金色的平面层次。少量云带是此刻山风和地形中的流动形态，位置和方向服务山谷，不是围绕主体一圈的重复花纹。\n晦明变化沿山脊、谷口和云隙错落推进，以相邻平涂色域表现；没有天空中央的巨大太阳、月亮、光环，没有太极图，也没有眼中射出激光。不要把昼夜简单切成左右两半或做成背景圆盘。保留谷口上方安静而开阔的留白，让气势可呼吸。\n背景足够有独特结构，但烛龙盘曲与抬首仍是第一视觉重心。不要亭阁、其他人物、额外神兽或无关的故事图标，不做多分镜。\n\n【共同绘画语言】\n细线、平面装饰片块、流畅轮廓；大形、中层结构、局部微纹三级分明。所有身体和山石片块内部平涂，用遮挡、嵌套、穿插、边界和负形建立层次；不要3D、摄影光照、体积渐变、写实烟雾、厚涂、浮雕。\n烛龙主色为深朱砂和赭红，腹节骨白，局部暖金细线；鳞片按身体的盘曲方向成组，局部有精致卷纹，不均匀铺满写实蛇鳞。山纹、云片与角色用相同的细线和概括方式，不能主体装饰画而背景写实风景。\n精美、古雅、富有生命感和装饰张力。轻微纸壁颗粒。无整圈花框、串珠轨道、四角花团，无文字、题签、印章、水印。\n",
+      "references": [
+        {
+          "path": "../../../.agents/skills/mythic-beast-mural/assets/qiongqi-approved-color.png",
+          "role": "style_reference_only",
+          "sha256": "e265abf63e8a4dad13a468121c441f27348a0b854c03e84fd6b1c9fd950a20f3"
+        }
+      ],
+      "output_file": "09-zhulong-awakening.png",
+      "source_cache_file": "C:/Users/huym/.codex/generated_images/01a0cc00-d881-7fa1-a468-c8c49a1c2b86/exec-0d602345-3233-4d68-8b3c-9a6ca2b62e19.png",
+      "tool_status": "succeeded",
+      "human_review": "pending",
+      "agent_observation": "Coiling and contact with terrain are visible; scene opens towards a bright valley. The decisive awakening moment remains subtle, and the landscape is denser and more textured than the style reference.",
+      "prompt_file_sha256": "2cb9e814e1f4a8c9726f0c3cfac5da403288ed90cd9a3d1b5f0342c84bf34f5e",
+      "submitted_prompt_sha256": "2cb9e814e1f4a8c9726f0c3cfac5da403288ed90cd9a3d1b5f0342c84bf34f5e",
+      "output_metadata": {
+        "sha256": "8d8c61956f2c6e8a6ccdccf287d7aedef6b84952838a1903582a5622c4c0ed7b",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG"
+      }
+    }
+  ],
+  "recorded_at_utc": "2026-09-23T06:44:25.957484+00:00"
+}
